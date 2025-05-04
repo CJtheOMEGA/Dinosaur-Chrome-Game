@@ -21,9 +21,9 @@
 
 		// center
 		var height = 15 * this.centerSize;
-		context.fillRect(x + 6 * scale, y - (20 + height) * scale, 6 * scale, height * scale);
-		context.fillRect(x + 7 * scale, y - (20 + height + 1) * scale, 4 * scale, 1 * scale);
-		context.fillRect(x + 6 * scale, y - 20 * scale, 6 * scale, 20 * scale);
+		context.fillRect(x + 10 * scale, y - (15 + height) * scale, 10 * scale, height * scale);
+		context.fillRect(x + 10 * scale, y - (15 + height + 2) * scale, 5 * scale, 1 * scale);
+		context.fillRect(x + 10 * scale, y - 15 * scale, 5 * scale, 15 * scale);
 		
 		// left
 		height = 15 * this.leftSize;

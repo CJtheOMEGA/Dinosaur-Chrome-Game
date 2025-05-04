@@ -4,6 +4,7 @@ html, body {
 	font-family: Arial;
 	margin: 0;
 	padding: 0;
+	background-image: url(img/paper.jpeg);
 }
 
 body {
@@ -12,6 +13,7 @@ body {
 }
 
 canvas {
+	background-image: url(img/paper.jpeg);
 	/*background: #fff;*/
 }
 
